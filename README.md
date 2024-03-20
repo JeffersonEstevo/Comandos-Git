@@ -33,6 +33,9 @@ As configurações realizadas através dos comandos abaixo serão incluídas no 
 	
 ##### Setar editor
 	git config --global core.editor vim
+
+##### Setar branch main 
+  	git push --set-upstream origin main
 	
 ##### Setar ferramenta de merge
 	git config --global merge.tool vimdiff
