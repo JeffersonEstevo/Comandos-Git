@@ -86,7 +86,10 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 ##### Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
 	
 	git add -f arquivo_no_gitignore.txt
-	
+ 
+#### Para cancelar o comando git add antes de um commit, pode-se usar o comando 
+	git reset
+ 
 ### Comitar arquivo/diretório
 
 ##### Comitar um arquivo
