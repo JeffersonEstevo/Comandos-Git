@@ -36,7 +36,12 @@ As configurações realizadas através dos comandos abaixo serão incluídas no 
 
 ##### Setar branch main 
   	git push --set-upstream origin main
-	
+   
+#### Verifique o nome da branch atual
+#### Certifique-se de que você está na branch correta. Use o comando:
+	git branch
+#### Se a branch atual for master, você pode renomeá-la para main com:
+	git branch -m master main
 ##### Setar ferramenta de merge
 	git config --global merge.tool vimdiff
 
