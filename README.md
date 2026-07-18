@@ -106,7 +106,7 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 
 ##### Modificar nome de commit que foi digitado errado
 
-	git commit --amend -m "nova_descrição"
+	git commit --amend -m "nova_descricao"
 
 ### Remover arquivo/diretório
 
