@@ -104,6 +104,10 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 
 	git commit meuarquivo.txt -m "minha mensagem de commit"
 
+##### Modificar nome de commit que foi digitado errado
+
+	git commit --amend -m "nova_descrição"
+
 ### Remover arquivo/diretório
 
 ##### Remover arquivo
